@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.signup-container {
+    width: 35vw;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #100c0c;
+}
+
+.signup-container h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-container label,
+.signup-container lable {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.signup-container input,
+.signup-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-container input[type="submit"],
+.signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-container input[type="submit"]:hover,
+.signup-container button:hover {
+    background-color: #e0554f;
+}
+
+.signup-container p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.signup-container a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.signup-container a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .signup-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+h1{
+    color: black;
+}
+
+label{
+    color: black;
+}
+
+span{
+    color: black;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 22vw; */
+}
+
+.form-data{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2.5rem;
+    width: fit-content;
+}
+
+input{
+    width: fit-content;
+}
+
+label{
+    width: fit-content;
+}
+
+p{
+    color: #100c0c;
+}
