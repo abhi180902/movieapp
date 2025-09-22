@@ -70,36 +70,6 @@ const Login = () => {
     }
   };
 
-  // let handleSubmit = async (e) => {
-  //   e.preventDefault();
-
-  //   try {
-  //     const validationErrors = validate(state);
-  //     setError(validationErrors);
-  //     setSubmit(true);
-
-  //     if (Object.keys(validationErrors).length === 0 && submit) {
-  //       const savedUser = JSON.parse(localStorage.getItem("userProfile"));
-
-  //       const users = JSON.parse(localStorage.getItem("users")) || [];
-
-  //       const matchedUser = users.find(
-  //         (user) =>
-  //           user.email === state.email && user.password === state.password
-  //       );
-
-  //       if (matchedUser) {
-  //         alert("Login Successful!");
-  //         navigate("/shop");
-  //       } else {
-  //         alert("Login credentials do not match!");
-  //       }
-  //     }
-  //   } catch (err) {
-  //     console.error(err);
-  //   }
-  // };
-
   return (
     <div>
       <center>
