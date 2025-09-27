@@ -1,14 +1,5 @@
 {
   "users": [
-    {
-      "id": "b4a0",
-      "name": "Abhishek",
-      "email": "abhisheksangamad1802@gmail.com",
-      "Mobile": "8762104352",
-      "DOB": "2016-03-03",
-      "gender": "Male",
-      "password": "abc@999",
-      "confpassword": "abc@999"
-    }
+    
   ]
 }
